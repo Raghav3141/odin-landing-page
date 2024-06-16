@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    color: #E5E7EB;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 12px;
+    font-size: 18px;
+}
+.body1 {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left{
+    flex: 1;
+}
+
+.left .head{
+   font-size: 48px;
+   font-weight: bolder;
+   color: #F9FAF8; 
+   margin-bottom: 8px;
+}
+
+.left .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left button{
+    border-radius: 15%;
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 20px;
+    margin-top: 8px;
+}
+
+.right{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    flex: 1;
+}
+
+.body2 .header2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.infoblocks{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.image{
+    border-radius: 25%;
+    border: solid 2px #3882F6;
+    width: 100%;
+    min-height: 100%;
+    flex: 1;
+}
+
+.infoblocks .num .text{
+    text-align: center;
+}
+
+.body3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    font-style: italic;
+    flex: 1;
+}
+
+.body3 span{
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.body4{
+    padding: 55px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #3882F6;
+    padding: 36px 36px;
+    justify-content: space-around;
+}
+
+.headend{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.body4 .box .text .body{
+    color: white;
+}
+
+button{
+    border-radius: 25%;
+    background-color: #3882F6;
+    color: white;
+    border: white 2px solid;
+}
